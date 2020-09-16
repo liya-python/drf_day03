@@ -39,6 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'api',
     'app',
+    'homeworkday05',
+    'day5',
 ]
 
 MIDDLEWARE = [
