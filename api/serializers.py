@@ -31,7 +31,7 @@ class EmployeeSerializer(serializers.Serializer):
 
     # self: 当前序列化器 obj：当前对象
     def get_gender(self, obj):
-        print(type(obj.gender))
+        print(obj.gender,'11')
         # if obj.gender == 0:
         #     return "male"
         # 性别是choices类型 get_字段名_display()访问对相应的值
